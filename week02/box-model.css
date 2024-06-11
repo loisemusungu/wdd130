@@ -1,0 +1,29 @@
+.callout {
+  width: 350px;
+  margin: 15px;
+  border: 1px solid blanchedalmond;
+  background-color: orange;
+  color: black;
+}
+
+.callout img {
+  float: right;
+  margin: 0 0 10px 15px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: aquamarine;
+  width: 100px;
+  height: auto;
+}
+
+blockquote {
+  margin: 30px;
+}
+
+cite {
+  display: block;
+  border-top: 1px solid black;
+  padding-top: 3px;
+  text-align: center;
+  font-size: 24px;
+}
