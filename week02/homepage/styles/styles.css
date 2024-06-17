@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: whitesmoke;
 }
 
 h1 {
@@ -16,7 +16,7 @@ aside {
   margin: 1rem;
   border: 1px solid rgba(139, 0, 0, 0.2);
   padding: 1rem;
-  background-color: beige;
+  background-color: bisque;
   color: brown;
   text-align: center;
 }
