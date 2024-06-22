@@ -5,6 +5,7 @@
   --secondary-color: #0077b6;
   --accent1-color: #00b4d8;
   --accent2-color: #90e0ef;
+  --accent2-color-rgb: 144, 224, 239;
 
   --heading-font: Alfa Slab One, serif;
   --paragraph-font: Poppins, serif;
@@ -65,8 +66,7 @@ main article {
 }
 
 article {
-  background-color: var(--accent2-color);
-  opacity: 0.6;
+  background-color: rgba(var(--accent2-color-rgb), 0.5);
 }
 
 .sociallinks a {
