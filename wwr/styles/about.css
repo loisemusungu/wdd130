@@ -32,6 +32,7 @@ h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   letter-spacing: 1.5px;
+  text-align: center;
 }
 
 header {
@@ -84,26 +85,20 @@ p {
   height: auto;
 }
 
-.hero h1 {
-  position: absolute;
-  left: 250px;
-  bottom: 230px;
-  color: var(--accent2-color);
-}
-
-.hero article {
-  position: relative;
-  max-width: 800px;
-  margin: auto;
+.hero {
 }
 
 .hero article img {
-  float: right;
+  float: left;
   width: 300px;
   height: auto;
 }
 
-article {
+.hero article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: rgba(var(--accent2-color-rgb), 0.5);
   padding: 1rem;
 }
@@ -134,10 +129,8 @@ article {
 .adventures figure {
   display: grid;
   justify-content: space-between;
-
   gap: 10px;
   padding: 1rem;
-  width: calc(20% - 20px);
   margin: 0;
   text-align: center;
 }
