@@ -51,7 +51,7 @@ nav {
 
 .navigation {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .navigation h2 {
@@ -86,16 +86,12 @@ p {
 }
 
 .hero article img {
-  float: left;
   width: 300px;
-  height: auto;
+  height: 300px;
+  float: right;
 }
 
 .hero article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-color: rgba(var(--accent2-color-rgb), 0.5);
   padding: 1rem;
 }
