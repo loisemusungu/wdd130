@@ -95,4 +95,7 @@ form {
 .declaration {
     background-color: navy;
     color: azure;
+    margin: 10px 5px 15px; border: 1px solid #000; 
+    padding: 10px; 
+    width: fit-content;
 }
