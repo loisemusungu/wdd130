@@ -40,8 +40,10 @@ textarea {
 }
 
 label {
-  text-align: right;
+  text-align: left;
   padding-right: 1rem;
+  display: block;
+  margin-bottom: 5px;
 }
 
 input,
@@ -49,6 +51,8 @@ select,
 textarea {
   padding: 0.5rem;
   font-size: 1.2rem;
+  width: 100%;
+  margin-bottom: 25px;
 }
 
 button {
@@ -86,4 +90,9 @@ form {
 .column {
     grid-template-columns: 3fr 1fr;
     margin: 5px 0;
+}
+
+.declaration {
+    background-color: navy;
+    color: azure;
 }
