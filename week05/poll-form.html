@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Fill out our easy-to-use form to contact us, request information, or provide feedback. Your responses help us improve and serve you better. 
+    Quick, secure, and straightforward.">
+    <meta name="author" content="Loise Musungu">
+    <link rel="stylesheet" href="styles/poll_form.css">
+    <title>WDD 130 | HTML Form - User Poll</title>
+  </head>
+  <body>
+    <header>
+      <h1>WDD 130 | Loise Musungu | HTML Form - User Poll</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div class="form-item">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" />
+          </div>
+          <div class="form-item column2">
+            <label for="useremail">Email</label>
+            <input type="email" id="useremail" name="useremail" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Questions</legend>
+          <label for="browswe">What is your favorite internet browser?</label>
+          <div class="form-item column1">
+            <select name="browser" id="browser">
+              <option value="chrome">Chrome</option>
+              <option value="firefox">Firefox</option>
+              <option value="safari">Safari</option>
+              <option value="edge">Edge</option>
+              <option value="brave">Brave</option>
+              <option value="other">Other</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet" />
+          </div>
+          <label for="feedback">List the places you have lived:</label>
+          <textarea
+            name="feedback"
+            id="feedback"
+            rows="4"
+            placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"
+          ></textarea>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+      </form>
+    </main>
+    <footer>
+      <p>&#169;2024 | HTML Form - User Poll</p>
+    </footer>
+  </body>
+</html>
