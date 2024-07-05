@@ -17,8 +17,33 @@
     </header>
     <main>
         <form>
-            <label for="fill in the blank question">Fill in the blank question</label>
-            <input type="fill in the blank question" id="q1" name="q1" />
+            <div>
+            <label for="CSS acronym">1. What does the acronym CSS stand for?</label><br>
+            <input type="CSS acronym" id="q1" name="q1">
+            </div>
+            <div>
+            <label for="CSS id and class">2. How are id and class attributes selected in CSS?</label><br>
+          <textarea
+            name="q2"
+            id="q2"
+          ></textarea>
+          </div>
+          <div>
+            <label for="CSS comment">3. Which of the following is a valid CSS comment?</label><br>
+            <select name="q3" id="q3">
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="comment">// This is a comment</option>
+                <option value="comment">/* This is a comment */</option>
+                <option value="comment">!This is a comment!</option>
+            </select>
+          </div>
+          <div>
+            <label for="q4">4. What is the bottom margin given to this declaration?</label><br>
+                <div style="margin: 10px 5px 15px; border: 1px solid #000; padding: 10px; width: fit-content;">
+                    margin: 10px 5px 15px;
+                </div>
+            <input type="number" id="q4" name="q4">
+          </div>
         </form>
     </main>
     <footer></footer>
