@@ -174,7 +174,7 @@ form {
   border: none;
 }
 
-.button {
+button {
   margin: 1rem;
   background-color: var(--primary-color);
   color: var(--accent2-color);
@@ -185,6 +185,6 @@ form {
   font-size: 18px;
 }
 
-.button:hover {
+button:hover {
   background-color: var(--nav-hover-background-color);
 }
