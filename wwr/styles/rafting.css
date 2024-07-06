@@ -178,7 +178,6 @@ button {
   margin: 1rem;
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  text-align: center;
   border: none;
   border-radius: 10px;
   padding: 12px;
