@@ -176,7 +176,7 @@ form {
 
 button {
   margin: 1rem;
-  background-color: navy;
+  background-color: var(--primary-color);
   color: var(--accent2-color);
   border: none;
   border-radius: 10px;
