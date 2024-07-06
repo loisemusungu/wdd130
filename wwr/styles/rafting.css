@@ -155,3 +155,69 @@ footer {
   width: 30px;
   height: 30px;
 }
+
+/* CSS attributes for Contact Page */
+
+iframe {
+  border: 0;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.team figure {
+  display: grid;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.team img {
+  width: 100%;
+  height: auto;
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  background-color: var(--accent2-color);
+  display: grid;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.form-item {
+  display: grid;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.text {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 500px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: var(--accent2-color);
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: var(--nav-hover-background-color);
+}
