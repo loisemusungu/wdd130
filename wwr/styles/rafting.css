@@ -124,6 +124,12 @@ p {
   text-align: center;
 }
 
+.title-caption {
+  font-size: large;
+  font-weight:900;
+  color: var(--primary-color);
+}
+
 footer {
   display: flex;
   justify-content: space-between;
