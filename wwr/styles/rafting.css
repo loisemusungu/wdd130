@@ -211,10 +211,15 @@ th {
   background-color: var(--accent2-color);
 }
 
-.book-now button{
+.book-now button {
   width: 50%;
   display: block;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.contact-us-link {
+  text-decoration: none;
+  color: var(--accent1-color);
 }
