@@ -223,3 +223,7 @@ th {
   text-decoration: none;
   color: var(--accent1-color);
 }
+
+.contact-us-link:hover {
+  color: var(--nav-hover-link-color);
+}
