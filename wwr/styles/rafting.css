@@ -198,3 +198,16 @@ button {
 button:hover {
   background-color: var(--nav-hover-background-color);
 }
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid var(--primary-color);
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: var(--accent2-color);
+        }

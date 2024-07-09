@@ -66,36 +66,41 @@
         </div>
       </section>
       <section>
-        <form>
-          <h3>Comment Form</h3>
-          <div class="form-item">
-            <div class="column">
-              <label for="name">Your Name</label><br />
-              <input class="text" type="text" id="name" name="name" />
-            </div>
-            <div class="column">
-              <label for="email">Your Email</label><br />
-              <input class="text" type="email" id="email" name="email" />
-            </div>
+        <table>
+            <tr>
+                <th>Trip Name</th>
+                <th>Duration</th>
+                <th>Price</th>
+                <th>Age Limit</th>
+            </tr>
+            <tr>
+                <td>River Rapids Run</td>
+                <td>Half-Day</td>
+                <td>$ 75</td>
+                <td>12 +</td>
+            </tr>
+            <tr>
+                <td>Canyon Explorer</td>
+                <td>Full Day</td>
+                <td>$ 150</td>
+                <td>16 +</td>
+            </tr>
+            <tr>
+                <td>Family Fun Float</td>
+                <td>2 Hours</td>
+                <td>$ 50</td>
+                <td>6 +</td>
+            </tr>
+            <tr>
+                <td>Adrenaline Rush</td>
+                <td>1 Day</td>
+                <td>$ 200</td>
+                <td>19 +</td>
+            </tr>
+        </table>
             <div>
-              <p>Please select the purpose of your message:</p>
-              <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" />
-              <label for="general_inquiry">General Inquiry</label><br />
-              <input type="radio" id="reservation_question" name="purpose" value="Reservation Question" />
-              <label for="reservation_question">Reservation Question</label><br />
-              <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion" />
-              <label for="website_suggestion">Website Suggestion</label><br />
+              <button type="submit" class="book-now" id="book-now">Book Now</button>
             </div>
-            <br />
-            <div class="column">
-              <label for="message">Message</label><br />
-              <textarea class="text" name="message" id="message"></textarea>
-            </div>
-            <div>
-              <input type="checkbox" id="newsletter" name="newsletter" value="Subscribe" />
-              <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-            </div>
-            <button type="submit" id="submit-comment">Submit Comment</button>
           </div>
         </form>
       </section>
