@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trips | WDD 130. Trips page for the Rapids Adventure Rafting business. This section highlights the previous best trips.">
+    <meta name="author" content="Loise Musungu">
+    <title>Trips | Rapids Adventure Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.jpeg" alt="rafting logo" class="logo" />
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <h1>Rapids Adventure Rafting</h1>
+        <!-- <img src="images/hero.jpg" alt="people enjoying rafting" /> -->
+        <article class="hero2">
+          <h2>Get in Touch with Us Today!</h2>
+          <p class="company-info">
+            Have questions or need assistance? We're here to help. 
+            Visit our <a href="contact.html" class="contact-us-link">Contact Us page</a> to reach out. Our team is 
+            ready to provide the support you need!
+          </p>
+        </article>
+      </div>
+      <section>
+        <h2>Trip Description</h2>
+        <div class="trips">
+          <figure>
+            <img src="images/Peru_rafting.jpg" alt="Peru Rafting" />
+            <figcaption>Peru Rafting</figcaption>
+          </figure>
+          <figure>
+            <img src="images/Salmon-River-Experience.jpg" alt="Salmon River Experience" />
+            <figcaption>Salmon River Experience</figcaption>
+          </figure>
+          <figure>
+            <img src="images/Nile-River-Explorers.jpg" alt="Nile River Explorers" />
+            <figcaption>Nile River Explorers</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section>
+        <form>
+          <h3>Comment Form</h3>
+          <div class="form-item">
+            <div class="column">
+              <label for="name">Your Name</label><br />
+              <input class="text" type="text" id="name" name="name" />
+            </div>
+            <div class="column">
+              <label for="email">Your Email</label><br />
+              <input class="text" type="email" id="email" name="email" />
+            </div>
+            <div>
+              <p>Please select the purpose of your message:</p>
+              <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" />
+              <label for="general_inquiry">General Inquiry</label><br />
+              <input type="radio" id="reservation_question" name="purpose" value="Reservation Question" />
+              <label for="reservation_question">Reservation Question</label><br />
+              <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion" />
+              <label for="website_suggestion">Website Suggestion</label><br />
+            </div>
+            <br />
+            <div class="column">
+              <label for="message">Message</label><br />
+              <textarea class="text" name="message" id="message"></textarea>
+            </div>
+            <div>
+              <input type="checkbox" id="newsletter" name="newsletter" value="Subscribe" />
+              <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+            </div>
+            <button type="submit" id="submit-comment">Submit Comment</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 ✌️ Loise Musungu 😊 Rapids Adventure Rafting 🚣🏻</p>
+      <p>
+        <a href="https://app.moqups.com/q3IJKOlR05GaVKahZ1Oo0jfVVPPZulR0/view/page/a66f6f27b" target="_blank">Contact Us Wireframe</a>
+      </p>
+      <nav class="sociallinks">
+        <a href="http://facebook.com" target="_blank">
+          <img src="images/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="http://twitter.com" target="_blank">
+          <img src="images/twitter.svg" alt="Twitter" />
+        </a>
+        <a href="http://instagram.com" target="_blank">
+          <img src="images/instagram.svg" alt="Instagram" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
