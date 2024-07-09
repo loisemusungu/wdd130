@@ -219,11 +219,22 @@ th {
   margin-bottom: 30px;
 }
 
-.contact-us-link {
+.contact-us-link, .email {
   text-decoration: none;
   color: var(--accent1-color);
 }
 
-.contact-us-link:hover {
+.contact-us-link:hover, .email:hover {
   color: var(--nav-hover-link-color);
 }
+
+.trip-image-link, .contact-us-wireframe-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.trip-image-link:hover, .contact-us-wireframe-link:hover {
+  color: var(--accent2-color);
+}
+
+
