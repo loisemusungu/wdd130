@@ -125,9 +125,8 @@ p {
 }
 
 .title-caption {
-  font-size: large;
-  font-weight:900;
   color: var(--primary-color);
+  font-family: var(--heading-font);
 }
 
 footer {
